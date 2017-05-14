@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choosebg"
+    android:columnCount="1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:parentActivityName="com.example.mealchoser.Chose"
+    tools:context=".Recipe" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lactose"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/peanut"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/peanut"
+        android:layout_marginBottom="32dp"
+        android:onClick="presentMeal"
+        android:text="Find your Recipe" />
+
+    <CheckBox
+        android:id="@+id/lactose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vegie"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="77dp"
+        android:text="@string/Lactose_String" />
+
+    <CheckBox
+        android:id="@+id/vegie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gluten"
+        android:layout_below="@+id/lactose"
+        android:text="@string/Vegiterian_String" />
+
+    <CheckBox
+        android:id="@+id/gluten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vegie"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Gluten_String" />
+
+    <CheckBox
+        android:id="@+id/peanut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gluten"
+        android:layout_below="@+id/gluten"
+        android:text="@string/Vegan_String" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lactose"
+        android:layout_alignLeft="@+id/lactose"
+        android:layout_marginBottom="44dp"
+        android:text="enter your dietary requirements" />
+
+</RelativeLayout>

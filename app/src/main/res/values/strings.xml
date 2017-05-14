@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MealChoser</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonBegin">Touch to start the App!</string>
+    <string name="authors">Created by James Oliver, James Smith, William Stokes and Paul Lee</string>
+    <string name="begging">Please Rate our App</string>
+    <string name="Gluten_String">Gluten Free</string>
+    <string name="Vegiterian_String">Vegetarian</string>
+    <string name="Vegan_String">Peanut Allegry</string>
+    <string name="Lactose_String">Lactose Intolerent</string>
+    <string name="pop_String">poptarts</string>
+    <string name="text">Enter Text</string>
+
+    <color name="Blue">#BBB</color>
+    <color name="green">#7FFF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <string name="hello_world">You can change the text by typing in the textfield and clicking the button!</string>
+    <string name="button_name">Click</string>
+    <string name="text_change">change this text!</string>
+    <string name="title_activity_chose">Chose</string>
+    <string name="title_activity_dietary_requirements">DietaryRequirements</string>
+    <string name="title_activity_enter_text">EnterText</string>
+    <string name="mealTypeText">Chose which meal you want to eat</string>
+    <string name="title_activity_help_screen">HelpScreen</string>
+
+</resources>
